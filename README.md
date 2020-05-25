@@ -17,5 +17,5 @@ tu instalación de python de cosas no necesarias.
 
 Antes del paso siguiente ejecutar: python -m pip install --upgrade pip para actualizar pip (gestor de paquetes de python)
 A continuación deberías de instalar los siguientes paquetes mediante los siguientes comandos:
-(PORFA mantener esta lista lo más actulializada posible)
+(PORFA mantener esta lista lo más actualizada posible)
  pip install pandas 

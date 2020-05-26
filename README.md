@@ -19,3 +19,5 @@ Antes del paso siguiente ejecutar: python -m pip install --upgrade pip para actu
 A continuación deberías de instalar los siguientes paquetes mediante los siguientes comandos:
 (PORFA mantener esta lista lo más actualizada posible)
  pip install pandas 
+ 
+ test

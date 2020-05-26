@@ -1,14 +1,50 @@
 import difflib 
 import pandas 
-import numpy as np 
+import numpy as np
+import shared.supportedFiles as const
+
+
 #define a class to help us with the process
+
 class ModelFileHelper(object):
     """Ayuda a dar una descripcion de un fichero y a su carga """
     def __init__(self, csvFile):
-     self.csvFile= pandas.read_csv(csvFile) 
-     self.fileName=csvFile
+        self.csvFile= pandas.read_csv(csvFile) 
+        self.fileName=csvFile
+        self.ColumnDescriptions ={}
+
     def getDescription(self):
         return self.csvFile.describe()
+
+    def setColumDescriptionsFile(self, fileFormat, filepath, columnkeyIndex=0, removeNotFoundColumns=True , excelSheet=0):
+        """ vincula las descripciones de las columnas del csv a las descripciones existentes en un fichero adicional.
+        fileFormat, usar la enumeracion SupportedFiles
+        filepath es el fichero diccionario.
+        columnKeyIndex el índice de columna que contiene el nombre de las columnas.
+        removeNotFoundColumns elimina del csv cargado en el helper aquellas columnas no encontradas en el csv diccionario.
+        el metodo retorna una lista con las columnas eliminadas cuando removeNotFoundColumns es verdadero.
+        el metodo retorna una lista con las columnas No encontradas en el csv de datos cuando removeNotFoundColumns es falso.
+        excelSheet por defecto 0 es la hoja excel de donde queremos cargar los datos """
+
+        dataFrame = self.__readFileFormat(filepath,fileFormat,excelSheet)
+        #leer y montar en un diccionario key-value donde value es un join del resto de las columnas que no son el columnIndex
+        for index, row in dataFrame.iterrows():
+            self.ColumnDescriptions[row[columnkeyIndex]] = "".join(row[columnkeyIndex:])
+
+         #ver que columnas existen y qué columnas no   
+        resultado = [] 
+        for columnName in self.csvFile.columns:
+            if not columnName in self.ColumnDescriptions:
+                item = columnName  + " No encontrada en CSV de datos "
+                if (removeNotFoundColumns):
+                    #eliminar columna
+                    resultado.append( item + "Accion: Eliminada")
+                    self.dropColumn(columnName)
+                else:
+                    #no eliminar, informar.
+                    resultado.append( item + "Accion: Ninguna")
+        
+        return resultado             
 
     def dropColumn(self, columnName):
         """wrapper para eliminar una columna"""
@@ -53,3 +89,12 @@ class ModelFileHelper(object):
 
     def __translateTypestoHumanReadable(self, text):
         return text.replace("int64", "Numero").replace("object", "Cadena de texto AlfaNumerica").replace("float64", "Numero (largo)")
+    
+    def __readFileFormat(self, filepath, format, excelSheetIndex=0):
+        if (format == const.SupportedFiles.EXCEL):
+            return pandas.read_excel(io= filepath, sheet_name = excelSheetIndex)
+        elif (format == const.SupportedFiles.CSV):
+            return pandas.read_csv(filepath)
+      
+        return     
+

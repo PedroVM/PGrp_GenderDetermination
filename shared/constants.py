@@ -9,5 +9,3 @@ TRAIN_KEY = "train"
 TEST_KEY = "test"
 # Diccionario que contiene los ficheros CSV bajo las claves. Pueden ser accedidos mediante las claves train y test 
 CSV_FILES = { TRAIN_KEY : mh.ModelFileHelper("data_sources/train.csv"), TEST_KEY :   mh.ModelFileHelper("data_sources/test.csv")} 
-
-

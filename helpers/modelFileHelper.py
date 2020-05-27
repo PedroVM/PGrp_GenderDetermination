@@ -83,7 +83,18 @@ class ModelFileHelper(object):
         harmonizated.to_csv(fileName,  index=False)  
 
     def nullCounts(self):
+        ''' Vuelca informacion sobre el numero de valores nulos en las diferentes columnas '''
         self.csvFile.info(verbose=True, null_counts=True)
+
+    def getNullPercents(self):
+        ''' Recupera un diccionario que contiene nombre_columna, %valores nulos '''
+        total_rows = self.csvFile.shape[0] #(rows, colums)
+        result ={}
+        for  column in self.csvFile.loc[:, self.csvFile.isnull().any()] :
+            notnullValues= self.csvFile[column].count()
+            result[column]=100 * float(total_rows-notnullValues) / float(total_rows)
+        return result
+        
     def __tuplaCleanUp(self, tupla):
         result = str(tupla).replace('(','').replace(')','').replace(',','')
         return result

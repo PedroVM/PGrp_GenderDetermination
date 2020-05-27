@@ -82,7 +82,8 @@ class ModelFileHelper(object):
         print ("volcando a archivo harmonizated_train.csv")
         harmonizated.to_csv(fileName,  index=False)  
 
-
+    def nullCounts(self):
+        self.csvFile.info(verbose=True, null_counts=True)
     def __tuplaCleanUp(self, tupla):
         result = str(tupla).replace('(','').replace(')','').replace(',','')
         return result
@@ -97,4 +98,5 @@ class ModelFileHelper(object):
             return pandas.read_csv(filepath)
       
         return     
+
 

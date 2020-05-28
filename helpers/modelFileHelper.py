@@ -97,6 +97,15 @@ class ModelFileHelper(object):
             result[column]={ '%' :100 * float(total_rows-notnullValues) / float(total_rows), 'description': self.ColumnDescriptions[column]}
         return sorted(result.items(), key= lambda x: x[1]['%'], reverse=True ) 
 
+    def removeColumnsHavingNulls(self, threshold):
+        ''' Elimina las columnas que tienen un umbral de nulos por encima del proporcionado '''
+        removedItems=[]
+        removable = [x for x in self.getNullPercents() if x[1]['%'] >= threshold ]
+        for column in removable:
+            self.dropColumn(column[0])
+            removedItems.append("Removed " + column[0] + " having a " + str(column[1]['%']) + " Percent of nulls"  )
+        return removedItems
+
     def __tuplaCleanUp(self, tupla):
         result = str(tupla).replace('(','').replace(')','').replace(',','')
         return result

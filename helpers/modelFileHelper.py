@@ -87,14 +87,16 @@ class ModelFileHelper(object):
         self.csvFile.info(verbose=True, null_counts=True)
 
     def getNullPercents(self):
-        ''' Recupera un diccionario que contiene nombre_columna, %valores nulos '''
+        ''' Recupera un diccionario donde las claves son los nombres y de columna y los valores un diccionario anexado
+        con clave '%' para el % de valores nulos y 'description' para obtener la descripcion de la variable (diccionario) '''
         total_rows = self.csvFile.shape[0] #(rows, colums)
         result ={}
         for  column in self.csvFile.loc[:, self.csvFile.isnull().any()] :
             notnullValues= self.csvFile[column].count()
-            result[column]=100 * float(total_rows-notnullValues) / float(total_rows)
-        return result
-        
+            #key -> (%,Descripcion)
+            result[column]={ '%' :100 * float(total_rows-notnullValues) / float(total_rows), 'description': self.ColumnDescriptions[column]}
+        return sorted(result.items(), key= lambda x: x[1]['%'], reverse=True ) 
+
     def __tuplaCleanUp(self, tupla):
         result = str(tupla).replace('(','').replace(')','').replace(',','')
         return result

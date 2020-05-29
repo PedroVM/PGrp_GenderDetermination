@@ -72,18 +72,14 @@ class ModelFileHelper(object):
         ''' indice de coorrelacion lineal de Pearson de la variable A con respecto a variable B. 
         Acotado entre [1 , -1] indicando |1| alta coorrelacion y en el caso de ser negativo el coeficiente, correlación inversa '''
         pearson = self.csvFile[A].corr(self.csvFile[B])
-        direccion = "directa" if (pearson>0) else ("inversa" if pearson < 0 else "No existe")
-        #print("Correlación lineal [" + direccion + "]: " + str( abs(pearson) ))
         return pearson
 
-
-    def removeColPearsonCriteria(self, value):
+    def removeColPearsonCriteria(self, removeUnderValue, compareWithColumn):
             for (columnName, columnData) in self.csvFile.iteritems():
-                pearsonIndex= self.pearson(columnName, 'is_female')
-                if((pearsonIndex>=0.0 and pearsonIndex<value) or (pearsonIndex<=0.0 and pearsonIndex>-(value))):
+                pearsonIndex= abs(self.pearson(columnName, compareWithColumn))
+                if( pearsonIndex <= removeUnderValue  ):
                     self.dropColumn(columnName)
                     print("Columna eliminada: "+str(columnName)+". índice de Pearson: "+str(pearsonIndex))
-
 
     def exportHarmonizatedModel(self, harmonizationMatrix, harmonizationquery, fileName):
         '''Exporta el modelo tras armonizar los valores en funcion de una matriz de armonización dada y una query'''

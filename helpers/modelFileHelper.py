@@ -75,11 +75,11 @@ class ModelFileHelper(object):
         return pearson
 
     def removeColPearsonCriteria(self, removeUnderValue, compareWithColumn):
-            for (columnName, columnData) in self.csvFile.iteritems():
-                pearsonIndex= abs(self.pearson(columnName, compareWithColumn))
-                if( pearsonIndex <= removeUnderValue  ):
-                    self.dropColumn(columnName)
-                    print("Columna eliminada: "+str(columnName)+". índice de Pearson: "+str(pearsonIndex))
+        for (columnName, columnData) in self.csvFile.iteritems():
+            pearsonIndex= abs(self.pearson(columnName, compareWithColumn))
+            if( pearsonIndex <= removeUnderValue  ):
+                self.dropColumn(columnName)
+                print("Columna eliminada: "+str(columnName)+". índice de Pearson: "+str(pearsonIndex))
 
     def exportHarmonizatedModel(self, harmonizationMatrix, harmonizationquery, fileName):
         '''Exporta el modelo tras armonizar los valores en funcion de una matriz de armonización dada y una query'''
@@ -130,7 +130,8 @@ class ModelFileHelper(object):
             return pd.read_excel(io= filepath, sheet_name = excelSheetIndex)
         elif (format == const.SupportedFiles.CSV):
             return pd.read_csv(filepath)
-        return     
+        return 
+            
     def __configurePandas(self):
         pd.set_option('display.max_rows', 3000)
         pd.set_option('display.max_columns', 3000)

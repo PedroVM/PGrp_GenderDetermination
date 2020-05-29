@@ -1,0 +1,1236 @@
+train_id                                  Numero
+AA3                                       Numero
+AA4                                       Numero
+AA5                               Numero (largo)
+AA6                               Numero (largo)
+AA7                                       Numero
+AA14                                      Numero
+AA15                                      Numero
+DG1                                       Numero
+is_female                                 Numero
+DG3                                       Numero
+DG3A                                      Numero
+DG3A_OTHERS         Cadena de texto AlfaNumerica
+DG4                                       Numero
+DG4_OTHERS                        Numero (largo)
+DG5_1                                     Numero
+DG5_2                                     Numero
+DG5_3                                     Numero
+DG5_4                                     Numero
+DG5_5                                     Numero
+DG5_6                                     Numero
+DG5_7                                     Numero
+DG5_8                                     Numero
+DG5_9                                     Numero
+DG5_10                                    Numero
+DG5_11                                    Numero
+DG5_96                                    Numero
+DG6                                       Numero
+DG8a                                      Numero
+DG8b                                      Numero
+DG8c                                      Numero
+DG9a                              Numero (largo)
+DG9b                              Numero (largo)
+DG9c                              Numero (largo)
+DG10b                             Numero (largo)
+DG10c                             Numero (largo)
+DG11b                             Numero (largo)
+DG11c                             Numero (largo)
+DG12B_1                           Numero (largo)
+DG12B_2                           Numero (largo)
+DG12C_1                           Numero (largo)
+DG12C_2                           Numero (largo)
+DG13_1                            Numero (largo)
+DG13_2                            Numero (largo)
+DG13_3                            Numero (largo)
+DG13_4                            Numero (largo)
+DG13_5                            Numero (largo)
+DG13_96                           Numero (largo)
+DG13_7                            Numero (largo)
+DG13_OTHERS         Cadena de texto AlfaNumerica
+DG14                              Numero (largo)
+DG14_OTHERS         Cadena de texto AlfaNumerica
+DL0                                       Numero
+DL1                                       Numero
+DL1_OTHERS          Cadena de texto AlfaNumerica
+DL2                               Numero (largo)
+DL2_23_OTHERS       Cadena de texto AlfaNumerica
+DL2_96_OTHERS       Cadena de texto AlfaNumerica
+DL3                               Numero (largo)
+DL4_1                                     Numero
+DL4_2                                     Numero
+DL4_3                                     Numero
+DL4_4                                     Numero
+DL4_5                                     Numero
+DL4_6                                     Numero
+DL4_7                                     Numero
+DL4_8                                     Numero
+DL4_9                                     Numero
+DL4_10                                    Numero
+DL4_11                                    Numero
+DL4_12                                    Numero
+DL4_13                                    Numero
+DL4_14                                    Numero
+DL4_15                                    Numero
+DL4_16                                    Numero
+DL4_17                                    Numero
+DL4_18                                    Numero
+DL4_19                                    Numero
+DL4_20                                    Numero
+DL4_21                                    Numero
+DL4_22                                    Numero
+DL4_23                                    Numero
+DL4_96                                    Numero
+DL4_99                                    Numero
+DL4_OTHERS          Cadena de texto AlfaNumerica
+DL5                               Numero (largo)
+DL6                                       Numero
+DL7                               Numero (largo)
+DL8                               Numero (largo)
+DL11                                      Numero
+DL12                              Numero (largo)
+DL12_OTHERS         Cadena de texto AlfaNumerica
+DL13                              Numero (largo)
+DL14                                      Numero
+DL15                                      Numero
+DL16                                      Numero
+DL17                                      Numero
+DL18                                      Numero
+DL19                                      Numero
+DL20                                      Numero
+DL21                                      Numero
+DL22                                      Numero
+DL23                                      Numero
+DL24                                      Numero
+DL25_1                                    Numero
+DL25_2                                    Numero
+DL25_3                                    Numero
+DL25_4                                    Numero
+DL25_5                                    Numero
+DL25_6                                    Numero
+DL25_7                                    Numero
+DL25_8                                    Numero
+DL26_1                                    Numero
+DL26_2                                    Numero
+DL26_3                                    Numero
+DL26_4                                    Numero
+DL26_5                                    Numero
+DL26_6                                    Numero
+DL26_7                                    Numero
+DL26_8                                    Numero
+DL26_9                                    Numero
+DL26_10                                   Numero
+DL26_12                                   Numero
+DL26_99                                   Numero
+DL27                              Numero (largo)
+DL28                              Numero (largo)
+DL28_OTHERS         Cadena de texto AlfaNumerica
+G2P1_1                            Numero (largo)
+G2P1_2                            Numero (largo)
+G2P1_3                            Numero (largo)
+G2P1_4                            Numero (largo)
+G2P1_5                            Numero (largo)
+G2P1_6                            Numero (largo)
+G2P1_7                            Numero (largo)
+G2P1_8                            Numero (largo)
+G2P1_9                            Numero (largo)
+G2P1_10                           Numero (largo)
+G2P1_11                           Numero (largo)
+G2P1_12                           Numero (largo)
+G2P1_13                           Numero (largo)
+G2P1_14                           Numero (largo)
+G2P1_15                           Numero (largo)
+G2P1_16                           Numero (largo)
+G2P1_96                           Numero (largo)
+G2P1_99                           Numero (largo)
+G2P1_OTHERS         Cadena de texto AlfaNumerica
+G2P2_1                            Numero (largo)
+G2P2_2                            Numero (largo)
+G2P2_3                            Numero (largo)
+G2P2_4                            Numero (largo)
+G2P2_5                            Numero (largo)
+G2P2_6                            Numero (largo)
+G2P2_7                            Numero (largo)
+G2P2_8                            Numero (largo)
+G2P2_9                            Numero (largo)
+G2P2_10                           Numero (largo)
+G2P2_11                           Numero (largo)
+G2P2_12                           Numero (largo)
+G2P2_13                           Numero (largo)
+G2P2_14                           Numero (largo)
+G2P2_15                           Numero (largo)
+G2P2_16                           Numero (largo)
+G2P2_96                           Numero (largo)
+G2P2_1_OTHERS       Cadena de texto AlfaNumerica
+G2P2_2_OTHERS                     Numero (largo)
+G2P2_4_OTHERS       Cadena de texto AlfaNumerica
+G2P2_6_OTHERS       Cadena de texto AlfaNumerica
+G2P2_7_OTHERS       Cadena de texto AlfaNumerica
+G2P2_8_OTHERS       Cadena de texto AlfaNumerica
+G2P2_9_OTHERS       Cadena de texto AlfaNumerica
+G2P2_10_OTHERS                    Numero (largo)
+G2P2_11_OTHERS      Cadena de texto AlfaNumerica
+G2P2_12_OTHERS                    Numero (largo)
+G2P2_13_OTHERS      Cadena de texto AlfaNumerica
+G2P2_14_OTHERS      Cadena de texto AlfaNumerica
+G2P2_15_OTHERS                    Numero (largo)
+G2P2_16_OTHERS      Cadena de texto AlfaNumerica
+G2P2_96_OTHERS      Cadena de texto AlfaNumerica
+G2P3_1                            Numero (largo)
+G2P3_2                            Numero (largo)
+G2P3_3                            Numero (largo)
+G2P3_4                            Numero (largo)
+G2P3_5                            Numero (largo)
+G2P3_6                            Numero (largo)
+G2P3_7                            Numero (largo)
+G2P3_8                            Numero (largo)
+G2P3_9                            Numero (largo)
+G2P3_10                           Numero (largo)
+G2P3_11                           Numero (largo)
+G2P3_12                           Numero (largo)
+G2P3_13                           Numero (largo)
+G2P3_14                           Numero (largo)
+G2P3_15                           Numero (largo)
+G2P3_16                           Numero (largo)
+G2P3_96                           Numero (largo)
+G2P4_1                            Numero (largo)
+G2P4_2                            Numero (largo)
+G2P4_3                            Numero (largo)
+G2P4_4                            Numero (largo)
+G2P4_5                            Numero (largo)
+G2P4_6                            Numero (largo)
+G2P4_7                            Numero (largo)
+G2P4_8                            Numero (largo)
+G2P4_9                            Numero (largo)
+G2P4_10                           Numero (largo)
+G2P4_11                           Numero (largo)
+G2P4_12                           Numero (largo)
+G2P4_13                           Numero (largo)
+G2P4_14                           Numero (largo)
+G2P4_15                           Numero (largo)
+G2P4_16                           Numero (largo)
+G2P4_96                           Numero (largo)
+G2P5_1                            Numero (largo)
+G2P5_2                            Numero (largo)
+G2P5_3                            Numero (largo)
+G2P5_4                            Numero (largo)
+G2P5_5                            Numero (largo)
+G2P5_6                            Numero (largo)
+G2P5_7                            Numero (largo)
+G2P5_8                            Numero (largo)
+G2P5_9                            Numero (largo)
+G2P5_10                           Numero (largo)
+G2P5_11                           Numero (largo)
+G2P5_12                           Numero (largo)
+G2P5_13                           Numero (largo)
+G2P5_14                           Numero (largo)
+G2P5_15                           Numero (largo)
+G2P5_16                           Numero (largo)
+G2P5_96                           Numero (largo)
+MT1                                       Numero
+MT1A                              Numero (largo)
+MT2                                       Numero
+MT3_1                             Numero (largo)
+MT3_2                             Numero (largo)
+MT3_3                             Numero (largo)
+MT4_1                             Numero (largo)
+MT4_2                             Numero (largo)
+MT4_3                             Numero (largo)
+MT4_4                             Numero (largo)
+MT4_5                             Numero (largo)
+MT4_6                             Numero (largo)
+MT5                               Numero (largo)
+MT5_OTHERS          Cadena de texto AlfaNumerica
+MT6                               Numero (largo)
+MT6_OTHERS          Cadena de texto AlfaNumerica
+MT6A                              Numero (largo)
+MT6A_OTHERS         Cadena de texto AlfaNumerica
+MT6B                              Numero (largo)
+MT6B_OTHERS         Cadena de texto AlfaNumerica
+MT6C                              Numero (largo)
+MT7                               Numero (largo)
+MT7A                              Numero (largo)
+MT7A_OTHERS         Cadena de texto AlfaNumerica
+MT8                               Numero (largo)
+MT9                               Numero (largo)
+MT9_OTHERS          Cadena de texto AlfaNumerica
+MT10                                      Numero
+MT11                              Numero (largo)
+MT12_1                            Numero (largo)
+MT12_2                            Numero (largo)
+MT12_3                            Numero (largo)
+MT12_4                            Numero (largo)
+MT12_5                            Numero (largo)
+MT12_6                            Numero (largo)
+MT12_7                            Numero (largo)
+MT12_8                            Numero (largo)
+MT12_9                            Numero (largo)
+MT12_10                           Numero (largo)
+MT12_11                           Numero (largo)
+MT12_12                           Numero (largo)
+MT12_13                           Numero (largo)
+MT12_14                           Numero (largo)
+MT12_96                           Numero (largo)
+MT12_99                           Numero (largo)
+MT12_OTHERS         Cadena de texto AlfaNumerica
+MT13_1                            Numero (largo)
+MT13_2                            Numero (largo)
+MT13_3                            Numero (largo)
+MT13_4                            Numero (largo)
+MT13_5                            Numero (largo)
+MT13_6                            Numero (largo)
+MT13_7                            Numero (largo)
+MT13_8                            Numero (largo)
+MT13_9                            Numero (largo)
+MT13_10                           Numero (largo)
+MT13_11                           Numero (largo)
+MT13_12                           Numero (largo)
+MT13_13                           Numero (largo)
+MT13_14                           Numero (largo)
+MT13_96                           Numero (largo)
+MT13_1_OTHERS       Cadena de texto AlfaNumerica
+MT13_2_OTHERS       Cadena de texto AlfaNumerica
+MT13_3_OTHERS       Cadena de texto AlfaNumerica
+MT13_4_OTHERS                     Numero (largo)
+MT13_7_OTHERS       Cadena de texto AlfaNumerica
+MT13_9_OTHERS       Cadena de texto AlfaNumerica
+MT13_11_OTHERS      Cadena de texto AlfaNumerica
+MT13_96_OTHERS                    Numero (largo)
+MT14_1                            Numero (largo)
+MT14_2                            Numero (largo)
+MT14_3                            Numero (largo)
+MT14_4                            Numero (largo)
+MT14_5                            Numero (largo)
+MT14_6                            Numero (largo)
+MT14_7                            Numero (largo)
+MT14_8                            Numero (largo)
+MT14_9                            Numero (largo)
+MT14_10                           Numero (largo)
+MT14_11                           Numero (largo)
+MT14_12                           Numero (largo)
+MT14_13                           Numero (largo)
+MT14_14                           Numero (largo)
+MT14_96                           Numero (largo)
+MT14_3_OTHERS                     Numero (largo)
+MT14_5_OTHERS                     Numero (largo)
+MT14_7_OTHERS                     Numero (largo)
+MT14A_1                           Numero (largo)
+MT14A_2                           Numero (largo)
+MT14A_3                           Numero (largo)
+MT14A_4                           Numero (largo)
+MT14A_5                           Numero (largo)
+MT14A_6                           Numero (largo)
+MT14A_7                           Numero (largo)
+MT14A_8                           Numero (largo)
+MT14A_9                           Numero (largo)
+MT14A_10                          Numero (largo)
+MT14A_11                          Numero (largo)
+MT14A_12                          Numero (largo)
+MT14A_13                          Numero (largo)
+MT14A_14                          Numero (largo)
+MT14A_96                          Numero (largo)
+MT14B                             Numero (largo)
+MT14B_OTHERS        Cadena de texto AlfaNumerica
+MT14C_1                           Numero (largo)
+MT14C_2                           Numero (largo)
+MT14C_3                           Numero (largo)
+MT14C_4                           Numero (largo)
+MT15                              Numero (largo)
+MT16_1                            Numero (largo)
+MT16_2                            Numero (largo)
+MT16_3                            Numero (largo)
+MT16_4                            Numero (largo)
+MT16_96                           Numero (largo)
+MT16_99                           Numero (largo)
+MT16_OTHERS         Cadena de texto AlfaNumerica
+MT17_1                            Numero (largo)
+MT17_2                            Numero (largo)
+MT17_3                            Numero (largo)
+MT17_4                            Numero (largo)
+MT17_5                            Numero (largo)
+MT17_6                            Numero (largo)
+MT17_7                            Numero (largo)
+MT17_8                            Numero (largo)
+MT17_9                            Numero (largo)
+MT17_10                           Numero (largo)
+MT17_11                           Numero (largo)
+MT17_12                           Numero (largo)
+MT17_13                           Numero (largo)
+MT18_1                            Numero (largo)
+MT18_2                            Numero (largo)
+MT18_3                            Numero (largo)
+MT18_4                            Numero (largo)
+MT18_5                            Numero (largo)
+MT18_6                            Numero (largo)
+MT18_96                           Numero (largo)
+MT18_8                            Numero (largo)
+MT18_OTHERS         Cadena de texto AlfaNumerica
+MT18A_1                           Numero (largo)
+MT18A_2                           Numero (largo)
+MT18A_3                           Numero (largo)
+MT18A_4                           Numero (largo)
+FF1                                       Numero
+FF2                               Numero (largo)
+FF2A                              Numero (largo)
+FF2A_OTHERS         Cadena de texto AlfaNumerica
+FF3                               Numero (largo)
+FF3_OTHERS          Cadena de texto AlfaNumerica
+FF4                               Numero (largo)
+FF5                               Numero (largo)
+FF6_1                             Numero (largo)
+FF6_2                             Numero (largo)
+FF6_3                             Numero (largo)
+FF6_4                             Numero (largo)
+FF6_5                             Numero (largo)
+FF6_6                             Numero (largo)
+FF6_7                             Numero (largo)
+FF6_8                             Numero (largo)
+FF6_9                             Numero (largo)
+FF6_10                            Numero (largo)
+FF7_1                             Numero (largo)
+FF7_2                             Numero (largo)
+FF7_3                             Numero (largo)
+FF7_4                             Numero (largo)
+FF7_5                             Numero (largo)
+FF7_6                             Numero (largo)
+FF7_7                             Numero (largo)
+FF7_96                            Numero (largo)
+FF7_OTHERS          Cadena de texto AlfaNumerica
+FF8_1                             Numero (largo)
+FF8_2                             Numero (largo)
+FF8_3                             Numero (largo)
+FF8_4                             Numero (largo)
+FF8_5                             Numero (largo)
+FF8_6                             Numero (largo)
+FF8_7                             Numero (largo)
+FF8_96                            Numero (largo)
+FF9                               Numero (largo)
+FF10_1                            Numero (largo)
+FF10_2                            Numero (largo)
+FF10_3                            Numero (largo)
+FF10_4                            Numero (largo)
+FF10_5                            Numero (largo)
+FF10_6                            Numero (largo)
+FF10_96                           Numero (largo)
+FF10_OTHERS         Cadena de texto AlfaNumerica
+FF13                              Numero (largo)
+FF14_1                            Numero (largo)
+FF14_2                            Numero (largo)
+FF14_3                            Numero (largo)
+FF14_4                            Numero (largo)
+FF14_5                            Numero (largo)
+FF14_6                            Numero (largo)
+FF14_7                            Numero (largo)
+FF14_8                            Numero (largo)
+FF14_9                            Numero (largo)
+FF14_10                           Numero (largo)
+FF14_11                           Numero (largo)
+FF14_12                           Numero (largo)
+FF14_13                           Numero (largo)
+FF14_14                           Numero (largo)
+FF14_15                           Numero (largo)
+FF14_16                           Numero (largo)
+FF14_17                           Numero (largo)
+FF14_18                           Numero (largo)
+FF14_19                           Numero (largo)
+FF14_20                           Numero (largo)
+FF14_21                           Numero (largo)
+FF14_22                           Numero (largo)
+FF14_23                           Numero (largo)
+FF14_96                           Numero (largo)
+FF14_OTHERS         Cadena de texto AlfaNumerica
+FF16_1                            Numero (largo)
+FF16_2                            Numero (largo)
+FF16_3                            Numero (largo)
+FF16_4                            Numero (largo)
+FF16_5                            Numero (largo)
+FF16_6                            Numero (largo)
+FF16_7                            Numero (largo)
+FF16_8                            Numero (largo)
+FF16_9                            Numero (largo)
+FF16_10                           Numero (largo)
+FF16_11                           Numero (largo)
+FF16_12                           Numero (largo)
+FF16_13                           Numero (largo)
+FF16_14                           Numero (largo)
+FF16_15                           Numero (largo)
+FF16_16                           Numero (largo)
+FF16_17                           Numero (largo)
+FF16_18                           Numero (largo)
+FF16_19                           Numero (largo)
+FF16_20                           Numero (largo)
+FF16_21                           Numero (largo)
+FF16_22                           Numero (largo)
+FF16_23                           Numero (largo)
+FF16_96                           Numero (largo)
+FF19_1                            Numero (largo)
+FF19_2                            Numero (largo)
+FF19_3                            Numero (largo)
+FF19_4                            Numero (largo)
+FF19_5                            Numero (largo)
+FF19_6                            Numero (largo)
+FF19_7                            Numero (largo)
+FF19_8                            Numero (largo)
+FF20                              Numero (largo)
+MM1                                       Numero
+MM2_1                                     Numero
+MM2_2                                     Numero
+MM2_3                                     Numero
+MM2_4                                     Numero
+MM2_5                                     Numero
+MM2_6                                     Numero
+MM2_7                                     Numero
+MM2_8                                     Numero
+MM2_9                                     Numero
+MM2_10                                    Numero
+MM2_11                                    Numero
+MM2_12                                    Numero
+MM2_13                                    Numero
+MM2_14                                    Numero
+MM2_15                                    Numero
+MM2_16                                    Numero
+MM2_OTHERS          Cadena de texto AlfaNumerica
+MM3_1                             Numero (largo)
+MM3_2                             Numero (largo)
+MM3_3                             Numero (largo)
+MM3_4                             Numero (largo)
+MM3_5                             Numero (largo)
+MM3_6                             Numero (largo)
+MM3_7                             Numero (largo)
+MM3_8                             Numero (largo)
+MM3_9                             Numero (largo)
+MM3_10                            Numero (largo)
+MM3_11                            Numero (largo)
+MM3_12                            Numero (largo)
+MM3_13                            Numero (largo)
+MM3_14                            Numero (largo)
+MM3_15                            Numero (largo)
+MM3_16                            Numero (largo)
+MM4_1                             Numero (largo)
+MM4_2                             Numero (largo)
+MM4_3                             Numero (largo)
+MM4_4                             Numero (largo)
+MM4_5                             Numero (largo)
+MM4_6                             Numero (largo)
+MM4_7                             Numero (largo)
+MM4_8                             Numero (largo)
+MM4_9                             Numero (largo)
+MM4_10                            Numero (largo)
+MM4_11                            Numero (largo)
+MM4_12                            Numero (largo)
+MM4_13                            Numero (largo)
+MM4_14                            Numero (largo)
+MM4_15                            Numero (largo)
+MM4_16                            Numero (largo)
+MM5_1                             Numero (largo)
+MM5_2                             Numero (largo)
+MM5_3                             Numero (largo)
+MM5_4                             Numero (largo)
+MM5_5                             Numero (largo)
+MM5_6                             Numero (largo)
+MM5_7                             Numero (largo)
+MM5_8                             Numero (largo)
+MM5_9                             Numero (largo)
+MM5_10                            Numero (largo)
+MM5_11                            Numero (largo)
+MM5_12                            Numero (largo)
+MM5_13                            Numero (largo)
+MM5_14                            Numero (largo)
+MM5_15                            Numero (largo)
+MM5_16                            Numero (largo)
+MM5A_1                            Numero (largo)
+MM5A_2                            Numero (largo)
+MM5A_3                            Numero (largo)
+MM5A_4                            Numero (largo)
+MM5A_5                            Numero (largo)
+MM5A_6                            Numero (largo)
+MM5A_7                            Numero (largo)
+MM5A_8                            Numero (largo)
+MM5A_9                            Numero (largo)
+MM5A_10                           Numero (largo)
+MM5A_11                           Numero (largo)
+MM5A_12                           Numero (largo)
+MM5A_13                           Numero (largo)
+MM5A_14                           Numero (largo)
+MM5A_15                           Numero (largo)
+MM5A_16                           Numero (largo)
+MM6_1                             Numero (largo)
+MM6_2                             Numero (largo)
+MM6_3                             Numero (largo)
+MM6_4                             Numero (largo)
+MM6_5                             Numero (largo)
+MM6_6                             Numero (largo)
+MM6_7                             Numero (largo)
+MM6_8                             Numero (largo)
+MM6_9                             Numero (largo)
+MM6_10                            Numero (largo)
+MM6_11                            Numero (largo)
+MM6_12                            Numero (largo)
+MM6_13                            Numero (largo)
+MM6_14                            Numero (largo)
+MM6_15                            Numero (largo)
+MM6_16                            Numero (largo)
+MM7_1                             Numero (largo)
+MM7_2                             Numero (largo)
+MM7_3                             Numero (largo)
+MM7_4                             Numero (largo)
+MM7_5                             Numero (largo)
+MM7_6                             Numero (largo)
+MM7_7                             Numero (largo)
+MM7_8                             Numero (largo)
+MM7_9                             Numero (largo)
+MM7_10                            Numero (largo)
+MM7_11                            Numero (largo)
+MM7_12                            Numero (largo)
+MM7_13                            Numero (largo)
+MM7_14                            Numero (largo)
+MM7_15                            Numero (largo)
+MM7_16                            Numero (largo)
+MM8_1                             Numero (largo)
+MM8_2                             Numero (largo)
+MM8_3                             Numero (largo)
+MM8_4                             Numero (largo)
+MM8_5                             Numero (largo)
+MM8_6                             Numero (largo)
+MM8_7                             Numero (largo)
+MM8_8                             Numero (largo)
+MM8_9                             Numero (largo)
+MM8_10                            Numero (largo)
+MM8_11                            Numero (largo)
+MM8_12                            Numero (largo)
+MM8_13                            Numero (largo)
+MM8_14                            Numero (largo)
+MM8_15                            Numero (largo)
+MM8_16                            Numero (largo)
+MM9                               Numero (largo)
+MM9A                              Numero (largo)
+MM10A_1                           Numero (largo)
+MM10A_2                           Numero (largo)
+MM10A_3                           Numero (largo)
+MM10A_4                           Numero (largo)
+MM10A_5                           Numero (largo)
+MM10A_6                           Numero (largo)
+MM10A_7                           Numero (largo)
+MM10A_8                           Numero (largo)
+MM10A_9                           Numero (largo)
+MM10A_96                          Numero (largo)
+MM10A_99                          Numero (largo)
+MM10B                             Numero (largo)
+MM11_1                            Numero (largo)
+MM11_2                            Numero (largo)
+MM11_2_OTHERS       Cadena de texto AlfaNumerica
+MM11_3                            Numero (largo)
+MM11_4                            Numero (largo)
+MM11_5                            Numero (largo)
+MM11_5_OTHERS                     Numero (largo)
+MM11_6                            Numero (largo)
+MM11_7                            Numero (largo)
+MM11_8                            Numero (largo)
+MM11_9                            Numero (largo)
+MM11_10                           Numero (largo)
+MM11_11                           Numero (largo)
+MM11_11_OTHERS                    Numero (largo)
+MM11_12                           Numero (largo)
+MM11_13                           Numero (largo)
+MM11_13_OTHERS      Cadena de texto AlfaNumerica
+MM11_14                           Numero (largo)
+MM11_15                           Numero (largo)
+MM11_16                           Numero (largo)
+MM12                              Numero (largo)
+MM12_OTHERS         Cadena de texto AlfaNumerica
+MM12_REC            Cadena de texto AlfaNumerica
+MM13                              Numero (largo)
+MM13_OTHERS         Cadena de texto AlfaNumerica
+MM13_REC            Cadena de texto AlfaNumerica
+MM14                              Numero (largo)
+MM14_OTHERS         Cadena de texto AlfaNumerica
+MM15_1                            Numero (largo)
+MM15_2                            Numero (largo)
+MM15_3                            Numero (largo)
+MM15_4                            Numero (largo)
+MM15_5                            Numero (largo)
+MM15_6                            Numero (largo)
+MM15_7                            Numero (largo)
+MM15_8                            Numero (largo)
+MM15_9                            Numero (largo)
+MM15_10                           Numero (largo)
+MM15_11                           Numero (largo)
+MM15_12                           Numero (largo)
+MM15_13                           Numero (largo)
+MM15_14                           Numero (largo)
+MM15_15                           Numero (largo)
+MM15_16                           Numero (largo)
+MM15_17                           Numero (largo)
+MM15_18                           Numero (largo)
+MM15_19                           Numero (largo)
+MM15_20                           Numero (largo)
+MM15_21                           Numero (largo)
+MM15_22                           Numero (largo)
+MM15_23                           Numero (largo)
+MM15_96                           Numero (largo)
+MM15_OTHERS                       Numero (largo)
+MM17_1                            Numero (largo)
+MM17_2                            Numero (largo)
+MM17_3                            Numero (largo)
+MM17_4                            Numero (largo)
+MM17_5                            Numero (largo)
+MM17_6                            Numero (largo)
+MM17_7                            Numero (largo)
+MM17_8                            Numero (largo)
+MM17_9                            Numero (largo)
+MM17_10                           Numero (largo)
+MM17_11                           Numero (largo)
+MM17_12                           Numero (largo)
+MM17_13                           Numero (largo)
+MM17_14                           Numero (largo)
+MM17_15                           Numero (largo)
+MM17_16                           Numero (largo)
+MM17_17                           Numero (largo)
+MM17_18                           Numero (largo)
+MM17_19                           Numero (largo)
+MM17_20                           Numero (largo)
+MM17_21                           Numero (largo)
+MM17_22                           Numero (largo)
+MM17_23                           Numero (largo)
+MM17_96                           Numero (largo)
+MM17A                             Numero (largo)
+MM18                              Numero (largo)
+MM19                              Numero (largo)
+MM20                              Numero (largo)
+MM21                              Numero (largo)
+MM23                              Numero (largo)
+MM24_1                            Numero (largo)
+MM24_2                            Numero (largo)
+MM24_3                            Numero (largo)
+MM24_4                            Numero (largo)
+MM24_5                            Numero (largo)
+MM24_6                            Numero (largo)
+MM24_7                            Numero (largo)
+MM24_8                            Numero (largo)
+MM24_96                           Numero (largo)
+MM24_OTHERS         Cadena de texto AlfaNumerica
+MM25                              Numero (largo)
+MM28                              Numero (largo)
+MM28_OTHERS         Cadena de texto AlfaNumerica
+MM29                              Numero (largo)
+MM30                              Numero (largo)
+MM31_1                            Numero (largo)
+MM31_2                            Numero (largo)
+MM31_3                            Numero (largo)
+MM31_4                            Numero (largo)
+MM31_5                            Numero (largo)
+MM31_6                            Numero (largo)
+MM31_7                            Numero (largo)
+MM31_8                            Numero (largo)
+MM31_9                            Numero (largo)
+MM31_10                           Numero (largo)
+MM31_11                           Numero (largo)
+MM31_12                           Numero (largo)
+MM31_13                           Numero (largo)
+MM32_1                            Numero (largo)
+MM32_2                            Numero (largo)
+MM32_3                            Numero (largo)
+MM32_4                            Numero (largo)
+MM32_5                            Numero (largo)
+MM32_6                            Numero (largo)
+MM32_7                            Numero (largo)
+MM32_8                            Numero (largo)
+MM32_9                            Numero (largo)
+MM32_10                           Numero (largo)
+MM32_11                           Numero (largo)
+MM32_12                           Numero (largo)
+MM32_13                           Numero (largo)
+MM33                              Numero (largo)
+MM34                              Numero (largo)
+MM35                              Numero (largo)
+MM36_1                            Numero (largo)
+MM36_2                            Numero (largo)
+MM36_3                            Numero (largo)
+MM36_4                            Numero (largo)
+MM36_5                            Numero (largo)
+MM36_6                            Numero (largo)
+MM36_7                            Numero (largo)
+MM36_8                            Numero (largo)
+MM36_9                            Numero (largo)
+MM36_10                           Numero (largo)
+MM36_11                           Numero (largo)
+MM36_12                           Numero (largo)
+MM36_13                           Numero (largo)
+MM36_14                           Numero (largo)
+MM36_96                           Numero (largo)
+MM36_OTHERS         Cadena de texto AlfaNumerica
+MM37_1                            Numero (largo)
+MM37_2                            Numero (largo)
+MM37_3                            Numero (largo)
+MM37_4                            Numero (largo)
+MM37_5                            Numero (largo)
+MM37_6                            Numero (largo)
+MM37_7                            Numero (largo)
+MM37_96                           Numero (largo)
+MM37_OTHERS         Cadena de texto AlfaNumerica
+MM38_1                            Numero (largo)
+MM38_2                            Numero (largo)
+MM38_3                            Numero (largo)
+MM38_4                            Numero (largo)
+MM38_5                            Numero (largo)
+MM38_6                            Numero (largo)
+MM38_7                            Numero (largo)
+MM38_8                            Numero (largo)
+MM38_9                            Numero (largo)
+MM38_10                           Numero (largo)
+MM38_11                           Numero (largo)
+MM38_12                           Numero (largo)
+MM38_13                           Numero (largo)
+MM38_14                           Numero (largo)
+MM38_15                           Numero (largo)
+MM38_16                           Numero (largo)
+MM38_17                           Numero (largo)
+MM38_18                           Numero (largo)
+MM38_96                           Numero (largo)
+MM38_OTHERS                       Numero (largo)
+MM40_1                            Numero (largo)
+MM40_2                            Numero (largo)
+MM40_3                            Numero (largo)
+MM40_4                            Numero (largo)
+MM40_5                            Numero (largo)
+MM40_6                            Numero (largo)
+MM40_7                            Numero (largo)
+MM40_8                            Numero (largo)
+MM40_9                            Numero (largo)
+MM40_10                           Numero (largo)
+MM40_11                           Numero (largo)
+MM40_12                           Numero (largo)
+MM40_13                           Numero (largo)
+MM40_14                           Numero (largo)
+MM40_15                           Numero (largo)
+MM40_16                           Numero (largo)
+MM40_17                           Numero (largo)
+MM40_18                           Numero (largo)
+MM40_96                           Numero (largo)
+MM41                              Numero (largo)
+MM41_OTHERS         Cadena de texto AlfaNumerica
+MM42_1                            Numero (largo)
+MM42_2                            Numero (largo)
+MM42_3                            Numero (largo)
+MM42_4                            Numero (largo)
+MM42_5                            Numero (largo)
+MM42_6                            Numero (largo)
+MMP1_1                                    Numero
+MMP1_2                                    Numero
+MMP1_3                                    Numero
+MMP1_4                                    Numero
+MMP1_5                                    Numero
+MMP1_6                                    Numero
+MMP1_7                                    Numero
+MMP1_8                                    Numero
+MMP1_9                                    Numero
+MMP1_10                                   Numero
+MMP1_11                                   Numero
+MMP1_96                                   Numero
+MMP1_OTHERS         Cadena de texto AlfaNumerica
+MMP2_1                            Numero (largo)
+MMP2_2                            Numero (largo)
+MMP2_3                            Numero (largo)
+MMP2_4                            Numero (largo)
+MMP2_5                            Numero (largo)
+MMP2_6                            Numero (largo)
+MMP2_7                            Numero (largo)
+MMP2_8                            Numero (largo)
+MMP2_9                            Numero (largo)
+MMP2_10                           Numero (largo)
+MMP2_11                           Numero (largo)
+MMP2_96                           Numero (largo)
+MMP3_1                            Numero (largo)
+MMP3_2                            Numero (largo)
+MMP3_3                            Numero (largo)
+MMP3_4                            Numero (largo)
+MMP3_5                            Numero (largo)
+MMP3_6                            Numero (largo)
+MMP3_7                            Numero (largo)
+MMP3_8                            Numero (largo)
+MMP3_9                            Numero (largo)
+MMP3_10                           Numero (largo)
+MMP3_11                           Numero (largo)
+MMP3_96                           Numero (largo)
+MMP4_1                            Numero (largo)
+MMP4_2                            Numero (largo)
+MMP4_3                            Numero (largo)
+MMP4_4                            Numero (largo)
+MMP4_5                            Numero (largo)
+MMP4_6                            Numero (largo)
+MMP4_7                            Numero (largo)
+MMP4_8                            Numero (largo)
+MMP4_9                            Numero (largo)
+MMP4_10                           Numero (largo)
+MMP4_11                           Numero (largo)
+MMP4_96                           Numero (largo)
+IFI1_1                                    Numero
+IFI2_1                            Numero (largo)
+IFI3_1                                    Numero
+IFI4_1                            Numero (largo)
+IFI1_2                                    Numero
+IFI2_2                            Numero (largo)
+IFI3_2                                    Numero
+IFI4_2                            Numero (largo)
+IFI1_3                                    Numero
+IFI2_3                            Numero (largo)
+IFI3_3                                    Numero
+IFI4_3                            Numero (largo)
+IFI1_4                                    Numero
+IFI2_4                            Numero (largo)
+IFI1_5                                    Numero
+IFI2_5                            Numero (largo)
+IFI1_6                                    Numero
+IFI2_6                            Numero (largo)
+IFI1_7                                    Numero
+IFI2_7                            Numero (largo)
+IFI1_8                                    Numero
+IFI2_8                            Numero (largo)
+IFI1_9                                    Numero
+IFI2_9                            Numero (largo)
+IFI5_1                            Numero (largo)
+IFI5_2                            Numero (largo)
+IFI5_3                            Numero (largo)
+IFI6_1                            Numero (largo)
+IFI6_2                            Numero (largo)
+IFI6_3                            Numero (largo)
+IFI6_4                            Numero (largo)
+IFI7_1                            Numero (largo)
+IFI7_2                            Numero (largo)
+IFI7_3                            Numero (largo)
+IFI7_4                            Numero (largo)
+IFI8_1                            Numero (largo)
+IFI8_2                            Numero (largo)
+IFI8_3                            Numero (largo)
+IFI8_4                            Numero (largo)
+IFI10_1                           Numero (largo)
+IFI10_2                           Numero (largo)
+IFI10_3                           Numero (largo)
+IFI10_4                           Numero (largo)
+IFI10_5                           Numero (largo)
+IFI10_6                           Numero (largo)
+IFI10_7                           Numero (largo)
+IFI10_8                           Numero (largo)
+IFI10_9                           Numero (largo)
+IFI10_10                          Numero (largo)
+IFI10_11                          Numero (largo)
+IFI10_12                          Numero (largo)
+IFI10_13                          Numero (largo)
+IFI10_14                          Numero (largo)
+IFI10_15                          Numero (largo)
+IFI10_16                          Numero (largo)
+IFI10_17                          Numero (largo)
+IFI10_18                          Numero (largo)
+IFI10_19                          Numero (largo)
+IFI10_20                          Numero (largo)
+IFI10_21                          Numero (largo)
+IFI10_22                          Numero (largo)
+IFI10_23                          Numero (largo)
+IFI10_96                          Numero (largo)
+IFI10_OTHERS        Cadena de texto AlfaNumerica
+IFI11_1                           Numero (largo)
+IFI11_2                           Numero (largo)
+IFI11_3                           Numero (largo)
+IFI11_4                           Numero (largo)
+IFI11_5                           Numero (largo)
+IFI11_6                           Numero (largo)
+IFI11_7                           Numero (largo)
+IFI11_8                           Numero (largo)
+IFI11_9                           Numero (largo)
+IFI11_10                          Numero (largo)
+IFI11_11                          Numero (largo)
+IFI11_12                          Numero (largo)
+IFI11_13                          Numero (largo)
+IFI11_14                          Numero (largo)
+IFI11_15                          Numero (largo)
+IFI11_16                          Numero (largo)
+IFI11_17                          Numero (largo)
+IFI11_18                          Numero (largo)
+IFI11_19                          Numero (largo)
+IFI11_20                          Numero (largo)
+IFI11_21                          Numero (largo)
+IFI11_22                          Numero (largo)
+IFI11_23                          Numero (largo)
+IFI11_96                          Numero (largo)
+IFI11_OTHERS        Cadena de texto AlfaNumerica
+IFI12_1                           Numero (largo)
+IFI12_2                           Numero (largo)
+IFI12_3                           Numero (largo)
+IFI12_4                           Numero (largo)
+IFI12_5                           Numero (largo)
+IFI12_6                           Numero (largo)
+IFI12_7                           Numero (largo)
+IFI12_8                           Numero (largo)
+IFI12_9                           Numero (largo)
+IFI12_10                          Numero (largo)
+IFI12_11                          Numero (largo)
+IFI12_12                          Numero (largo)
+IFI12_13                          Numero (largo)
+IFI12_14                          Numero (largo)
+IFI12_15                          Numero (largo)
+IFI12_16                          Numero (largo)
+IFI12_17                          Numero (largo)
+IFI12_18                          Numero (largo)
+IFI12_19                          Numero (largo)
+IFI12_20                          Numero (largo)
+IFI12_21                          Numero (largo)
+IFI12_22                          Numero (largo)
+IFI12_23                          Numero (largo)
+IFI12_96                          Numero (largo)
+IFI12_OTHERS        Cadena de texto AlfaNumerica
+IFI14_1                                   Numero
+IFI14_2                                   Numero
+IFI14_3                                   Numero
+IFI14_4                                   Numero
+IFI14_5                                   Numero
+IFI14_6                                   Numero
+IFI14_7                                   Numero
+IFI15_1                                   Numero
+IFI15_2                                   Numero
+IFI15_3                                   Numero
+IFI15_4                                   Numero
+IFI15_5                                   Numero
+IFI15_6                                   Numero
+IFI15_7                                   Numero
+IFI16_1                           Numero (largo)
+IFI16_2                           Numero (largo)
+IFI16_3                           Numero (largo)
+IFI16_4                           Numero (largo)
+IFI16_5                           Numero (largo)
+IFI16_6                           Numero (largo)
+IFI16_7                           Numero (largo)
+IFI16_1_OTHERS      Cadena de texto AlfaNumerica
+IFI16_2_OTHERS      Cadena de texto AlfaNumerica
+IFI16_3_OTHERS      Cadena de texto AlfaNumerica
+IFI16_6_OTHERS      Cadena de texto AlfaNumerica
+IFI16_7_OTHERS      Cadena de texto AlfaNumerica
+IFI17_1                           Numero (largo)
+IFI17_2                           Numero (largo)
+IFI17_3                           Numero (largo)
+IFI17_4                           Numero (largo)
+IFI17_5                           Numero (largo)
+IFI17_6                           Numero (largo)
+IFI17_7                           Numero (largo)
+IFI18                                     Numero
+IFI20_1                           Numero (largo)
+IFI20_2                           Numero (largo)
+IFI20_3                           Numero (largo)
+IFI20_4                           Numero (largo)
+IFI20_5                           Numero (largo)
+IFI20_6                           Numero (largo)
+IFI20_7                           Numero (largo)
+IFI20_8                           Numero (largo)
+IFI20_9                           Numero (largo)
+IFI21                             Numero (largo)
+IFI21_OTHERS        Cadena de texto AlfaNumerica
+IFI22_1                           Numero (largo)
+IFI22_2                           Numero (largo)
+IFI22_3                           Numero (largo)
+IFI22_4                           Numero (largo)
+IFI22_5                           Numero (largo)
+IFI22_6                           Numero (largo)
+IFI22_7                           Numero (largo)
+IFI22_8                           Numero (largo)
+IFI22_9                           Numero (largo)
+IFI23_1                           Numero (largo)
+IFI23_2                           Numero (largo)
+IFI24                             Numero (largo)
+IFI24_OTHERS        Cadena de texto AlfaNumerica
+FL1                                       Numero
+FL2                               Numero (largo)
+FL3                               Numero (largo)
+FL3_OTHERS          Cadena de texto AlfaNumerica
+FL4                                       Numero
+FL4_OTHERS          Cadena de texto AlfaNumerica
+FL6_1                                     Numero
+FL6_2                                     Numero
+FL6_3                                     Numero
+FL6_4                                     Numero
+FL7_1                                     Numero
+FL7_2                                     Numero
+FL7_3                                     Numero
+FL7_4                                     Numero
+FL7_5                                     Numero
+FL7_6                                     Numero
+FL8_1                                     Numero
+FL8_2                                     Numero
+FL8_3                                     Numero
+FL8_4                                     Numero
+FL8_5                                     Numero
+FL8_6                                     Numero
+FL8_7                                     Numero
+FL9A                                      Numero
+FL9A_OTHERS         Cadena de texto AlfaNumerica
+FL9B                              Numero (largo)
+FL9B_OTHERS         Cadena de texto AlfaNumerica
+FL9C                              Numero (largo)
+FL10                                      Numero
+FL10_OTHERS         Cadena de texto AlfaNumerica
+FL11                                      Numero
+FL12                                      Numero
+FL13                                      Numero
+FL14                                      Numero
+FL15                                      Numero
+FL16                                      Numero
+FL17                                      Numero
+FL18                                      Numero
+FB1_1                                     Numero
+FB1_2                                     Numero
+FB1_3                                     Numero
+FB2                                       Numero
+FB3                                       Numero
+FB4_1                             Numero (largo)
+FB4_2                             Numero (largo)
+FB4_3                             Numero (largo)
+FB4_4                             Numero (largo)
+FB4_96                            Numero (largo)
+FB4_OTHERS          Cadena de texto AlfaNumerica
+FB13                                      Numero
+FB14                              Numero (largo)
+FB15                              Numero (largo)
+FB16_1                                    Numero
+FB16_2                                    Numero
+FB16_3                                    Numero
+FB16_4                                    Numero
+FB16_5                                    Numero
+FB16_6                                    Numero
+FB16_7                                    Numero
+FB16_8                                    Numero
+FB16_96                                   Numero
+FB16_5_OTHERS       Cadena de texto AlfaNumerica
+FB16_96_OTHERS      Cadena de texto AlfaNumerica
+FB16A_1                           Numero (largo)
+FB16A_2                           Numero (largo)
+FB16A_3                           Numero (largo)
+FB16A_4                           Numero (largo)
+FB16A_5                           Numero (largo)
+FB16A_6                           Numero (largo)
+FB16A_7                           Numero (largo)
+FB16A_8                           Numero (largo)
+FB16A_96                          Numero (largo)
+FB17_1                            Numero (largo)
+FB17_2                            Numero (largo)
+FB17_3                            Numero (largo)
+FB17_4                            Numero (largo)
+FB17_5                            Numero (largo)
+FB17_6                            Numero (largo)
+FB17_7                            Numero (largo)
+FB17_8                            Numero (largo)
+FB17_96                           Numero (largo)
+FB18                                      Numero
+FB19                                      Numero
+FB19_96_OTHERS      Cadena de texto AlfaNumerica
+FB19_6_OTHERS       Cadena de texto AlfaNumerica
+FB19A_1                                   Numero
+FB19A_2                                   Numero
+FB19A_3                                   Numero
+FB19A_4                                   Numero
+FB19A_5                                   Numero
+FB19A_96                                  Numero
+FB19A_OTHERS        Cadena de texto AlfaNumerica
+FB19B_1                           Numero (largo)
+FB19B_2                           Numero (largo)
+FB19B_3                           Numero (largo)
+FB19B_4                           Numero (largo)
+FB19B_5                           Numero (largo)
+FB19B_96                          Numero (largo)
+FB19B_OTHERS        Cadena de texto AlfaNumerica
+FB20                              Numero (largo)
+FB21                              Numero (largo)
+FB22_1                                    Numero
+FB22_2                                    Numero
+FB22_3                                    Numero
+FB22_4                                    Numero
+FB22_5                                    Numero
+FB22_6                                    Numero
+FB22_7                                    Numero
+FB22_8                                    Numero
+FB22_9                                    Numero
+FB22_10                                   Numero
+FB22_11                                   Numero
+FB22_12                                   Numero
+FB22_96                                   Numero
+FB22_7_OTHERS       Cadena de texto AlfaNumerica
+FB22_96_OTHERS      Cadena de texto AlfaNumerica
+FB23_1                            Numero (largo)
+FB23_2                            Numero (largo)
+FB23_3                            Numero (largo)
+FB23_4                            Numero (largo)
+FB23_5                            Numero (largo)
+FB23_6                            Numero (largo)
+FB23_7                            Numero (largo)
+FB23_9                            Numero (largo)
+FB23_10                           Numero (largo)
+FB23_11                           Numero (largo)
+FB23_96                           Numero (largo)
+FB24                              Numero (largo)
+FB24_OTHERS         Cadena de texto AlfaNumerica
+FB25                              Numero (largo)
+FB25_OTHERS         Cadena de texto AlfaNumerica
+FB26_1                            Numero (largo)
+FB26_2                            Numero (largo)
+FB26_3                            Numero (largo)
+FB26_4                            Numero (largo)
+FB26_5                            Numero (largo)
+FB26_6                            Numero (largo)
+FB26_7                            Numero (largo)
+FB26_8                            Numero (largo)
+FB26_9                            Numero (largo)
+FB26_10                           Numero (largo)
+FB26_11                           Numero (largo)
+FB26_96                           Numero (largo)
+FB26_99                           Numero (largo)
+FB26_OTHERS         Cadena de texto AlfaNumerica
+FB27_1                                    Numero
+FB27_2                                    Numero
+FB27_3                                    Numero
+FB27_4                                    Numero
+FB27_5                                    Numero
+FB27_6                                    Numero
+FB27_7                                    Numero
+FB27_8                                    Numero
+FB27_9                                    Numero
+FB27_96                                   Numero
+FB27_OTHERS         Cadena de texto AlfaNumerica
+FB28_1                            Numero (largo)
+FB28_2                            Numero (largo)
+FB28_3                            Numero (largo)
+FB28_4                            Numero (largo)
+FB28_5                            Numero (largo)
+FB28_6                            Numero (largo)
+FB28_7                            Numero (largo)
+FB28_8                            Numero (largo)
+FB28_9                            Numero (largo)
+FB28_96                           Numero (largo)
+FB28_1_OTHERS       Cadena de texto AlfaNumerica
+FB28_2_OTHERS       Cadena de texto AlfaNumerica
+FB28_3_OTHERS                     Numero (largo)
+FB28_4_OTHERS       Cadena de texto AlfaNumerica
+FB28_96_OTHERS      Cadena de texto AlfaNumerica
+FB29_1                                    Numero
+FB29_2                                    Numero
+FB29_3                                    Numero
+FB29_4                                    Numero
+FB29_5                                    Numero
+FB29_6                                    Numero
+FB29_96                                   Numero
+FB29_OTHERS         Cadena de texto AlfaNumerica
+LN1A                                      Numero
+LN1B                                      Numero
+LN2_1                                     Numero
+LN2_2                                     Numero
+LN2_3                                     Numero
+LN2_4                                     Numero
+LN2_RIndLngBEOth    Cadena de texto AlfaNumerica
+LN2_WIndLngBEOth    Cadena de texto AlfaNumerica
+GN1                               Numero (largo)
+GN1_OTHERS          Cadena de texto AlfaNumerica
+GN2                                       Numero
+GN2_OTHERS          Cadena de texto AlfaNumerica
+GN3                                       Numero
+GN3_OTHERS          Cadena de texto AlfaNumerica
+GN4                                       Numero
+GN4_OTHERS          Cadena de texto AlfaNumerica
+GN5                                       Numero
+GN5_OTHERS          Cadena de texto AlfaNumerica
+dtype: object

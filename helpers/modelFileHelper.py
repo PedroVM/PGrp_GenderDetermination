@@ -76,8 +76,8 @@ class ModelFileHelper(object):
 
     def removeColPearsonCriteria(self, removeUnderValue, compareWithColumn):
         for (columnName, columnData) in self.csvFile.iteritems():
-            pearsonIndex= abs(self.pearson(columnName, compareWithColumn))
-            if( pearsonIndex <= removeUnderValue  ):
+            pearsonIndex= self.pearson(columnName, compareWithColumn)
+            if( pearsonIndex <= abs(removeUnderValue)  ):
                 self.dropColumn(columnName)
                 print("Columna eliminada: "+str(columnName)+". índice de Pearson: "+str(pearsonIndex))
 
@@ -131,7 +131,7 @@ class ModelFileHelper(object):
         elif (format == const.SupportedFiles.CSV):
             return pd.read_csv(filepath)
         return 
-            
+
     def __configurePandas(self):
         pd.set_option('display.max_rows', 3000)
         pd.set_option('display.max_columns', 3000)

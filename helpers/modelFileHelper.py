@@ -136,3 +136,6 @@ class ModelFileHelper(object):
         pd.set_option('display.max_rows', 3000)
         pd.set_option('display.max_columns', 3000)
 
+    def _viewUniqueColumnValues(self, column):
+        return pd.unique(self.csvFile[column]).tolist()    
+

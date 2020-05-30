@@ -2,7 +2,8 @@ import difflib
 import pandas as pd
 import numpy as np
 import shared.supportedFiles as const
-
+import seaborn as sea
+import matplotlib.pyplot as plt
 
 #define a class to help us with the process
 
@@ -118,6 +119,14 @@ class ModelFileHelper(object):
             removedItems.append("Removed " + column[0] + " having a " + str(column[1]['%']) + " Percent of nulls"  )
         return removedItems
 
+    def viewUniqueColumnValues(self, column):
+        return pd.unique(self.csvFile[column]).tolist()    
+
+    def getHeatMap(self, corrMethod, dimensionX, dimensionY):
+        corr=self.csvFile.corr(method=corrMethod) 
+        plt.figure(figsize=(dimensionX, dimensionY))
+        sea.heatmap(corr, xticklabels=True, yticklabels=True)  
+
     def __tuplaCleanUp(self, tupla):
         result = str(tupla).replace('(','').replace(')','').replace(',','')
         return result
@@ -135,4 +144,7 @@ class ModelFileHelper(object):
     def __configurePandas(self):
         pd.set_option('display.max_rows', 3000)
         pd.set_option('display.max_columns', 3000)
+
+    def _viewUniqueColumnValues(self, column):
+        return pd.unique(self.csvFile[column]).tolist()    
 

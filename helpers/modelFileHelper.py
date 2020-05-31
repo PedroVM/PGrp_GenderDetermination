@@ -60,7 +60,8 @@ class ModelFileHelper(object):
     def fillGapsUsingMultivariable(self, method='median', useNearestVariables=None):
         '''  method puede ser, "mean”, “median”, “most_frequent”, or “constant” , useNearestVariables numero de variables cercanas para inferir el valor, por defecto todas. '''
         
-        return 
+        iterativeImputer = IterativeImputer(random_state=0, initial_strategy= method,n_nearest_features=useNearestVariables )
+        self.csvFile = pd.DataFrame(iterativeImputer.fit_transform(self.csvFile)) 
 
     def replaceColumnTextByDictionaryValues(self , dictionary, column, naValue=''):
         ''' remplaza el contenido de las celdas de una columna que coincidan con los valores de un diccionario por su valor.'''

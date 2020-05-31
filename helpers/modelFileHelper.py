@@ -4,6 +4,8 @@ import numpy as np
 import shared.supportedFiles as const
 import seaborn as sea
 import matplotlib.pyplot as plt
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.impute import IterativeImputer
 
 #define a class to help us with the process
 
@@ -44,21 +46,40 @@ class ModelFileHelper(object):
                 else:
                     #no eliminar, informar.
                     resultado.append( item + "Accion: Ninguna")
-        
-        return resultado             
+        return resultado   
+    def setColumnsType(self, dictionaryOfColumnNamesTypes):
+        self.csvFile=self.csvFile.astype(dictionaryOfColumnNamesTypes)
 
+    def removeUselessColumns (self, dropConstants=True, dropQualifiyingColums=True):
+        if (dropConstants):
+           columnasNoConstantes= self.csvFile.columns[ self.csvFile.nunique()>1 ]
+           self.csvFile= self.csvFile.loc [:,columnasNoConstantes].copy()   
+        if (dropQualifiyingColums):
+           self.csvFile = self.csvFile.select_dtypes(exclude=np.object) #las cadenas de texto las interpreta como objectos.   
+
+    def fillGapsUsingMultivariable(self, method='median', useNearestVariables=None):
+        '''  method puede ser, "mean”, “median”, “most_frequent”, or “constant” , useNearestVariables numero de variables cercanas para inferir el valor, por defecto todas. '''
+        
+        return 
+
+    def replaceColumnTextByDictionaryValues(self , dictionary, column, naValue=''):
+        ''' remplaza el contenido de las celdas de una columna que coincidan con los valores de un diccionario por su valor.'''
+        for key in dictionary:
+            self.csvFile[column]= self.csvFile[column].replace(key, dictionary[key])
+
+        self.csvFile[column]=  self.csvFile[column].fillna(naValue)  
+    
     def dropColumn(self, columnName):
-        '''wrapper para eliminar una columna'''
+        ''' wrapper para eliminar una columna'''
         self.csvFile= self.csvFile.drop(columnName, axis=1)
 
     def getModelTypeDetail(self, fileName=None):
-        '''Retorna una estructura legible con los tipos de dato del conjunto de datos del csv cargado
+        ''' Retorna una estructura legible con los tipos de dato del conjunto de datos del csv cargado
              exporta la salida a filename si se proporciona un nombre de fichero '''
         if (fileName==None) :    
             return self.__translateTypestoHumanReadable(self.csvFile.dtypes)
         else:
             with open( fileName, 'w') as f:
-               
                print(self.__translateTypestoHumanReadable(self.csvFile.dtypes), file=f)     
 
     def findDifferences(self, other):
@@ -107,16 +128,23 @@ class ModelFileHelper(object):
         for  column in self.csvFile.loc[:, self.csvFile.isnull().any()] :
             notnullValues= self.csvFile[column].count()
             #key -> (%,Descripcion)
-            result[column]={ '%' :100 * float(total_rows-notnullValues) / float(total_rows), 'description': self.ColumnDescriptions[column]}
+            try:
+                description = self.ColumnDescriptions[column]
+            except KeyError:
+                description= "no description available"
+
+            result[column]={ '%' :100 * float(total_rows-notnullValues) / float(total_rows), 'description': description}
         return sorted(result.items(), key= lambda x: x[1]['%'], reverse=True ) 
 
-    def removeColumnsHavingNulls(self, threshold):
+    def removeColumnsHavingNulls(self, threshold, Silent=False):
         ''' Elimina las columnas que tienen un umbral de nulos por encima del proporcionado '''
         removedItems=[]
         removable = [x for x in self.getNullPercents() if x[1]['%'] >= threshold ]
         for column in removable:
             self.dropColumn(column[0])
-            removedItems.append("Removed " + column[0] + " having a " + str(column[1]['%']) + " Percent of nulls"  )
+            if (Silent != True):
+                removedItems.append("Removed " + column[0] + " having a " + str(column[1]['%']) + " Percent of nulls"  )
+
         return removedItems
 
     def viewUniqueColumnValues(self, column):
@@ -125,7 +153,7 @@ class ModelFileHelper(object):
     def getHeatMap(self, corrMethod, dimensionX, dimensionY):
         corr=self.csvFile.corr(method=corrMethod) 
         plt.figure(figsize=(dimensionX, dimensionY))
-        sea.heatmap(corr, xticklabels=True, yticklabels=True)  
+        sea.heatmap(corr, xticklabels=True, yticklabels=True) 
 
     def __tuplaCleanUp(self, tupla):
         result = str(tupla).replace('(','').replace(')','').replace(',','')
@@ -146,5 +174,4 @@ class ModelFileHelper(object):
         pd.set_option('display.max_columns', 3000)
 
     def _viewUniqueColumnValues(self, column):
-        return pd.unique(self.csvFile[column]).tolist()    
-
+        return pd.unique(self.csvFile[column]).tolist()   

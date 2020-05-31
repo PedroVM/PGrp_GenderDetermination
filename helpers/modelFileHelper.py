@@ -113,9 +113,11 @@ class ModelFileHelper(object):
     def removeColPearsonCriteria(self, removeUnderValue, compareWithColumn):
         for (columnName, columnData) in self.csvFile.iteritems():
             pearsonIndex= self.pearson(columnName, compareWithColumn)
-            if( pearsonIndex <= abs(removeUnderValue)  ):
+            if( abs(pearsonIndex) <= abs(removeUnderValue)  ):
                 self.dropColumn(columnName)
-                print("Columna eliminada: "+str(columnName)+". índice de Pearson: "+str(pearsonIndex))
+                print("Columna eliminada: "+str(columnName)+". índice de Pearson: "+str(abs(pearsonIndex)) + " <= " + str(abs(removeUnderValue)) )
+            else:
+                 print("Columna NO eliminada: "+str(columnName)+". índice de Pearson: "+str(abs(pearsonIndex)) + " > = " + str(abs(removeUnderValue)) )
 
     def exportHarmonizatedModel(self, harmonizationMatrix, harmonizationquery, fileName):
         '''Exporta el modelo tras armonizar los valores en funcion de una matriz de armonización dada y una query'''

@@ -61,7 +61,10 @@ class ModelFileHelper(object):
         '''  method puede ser, "mean”, “median”, “most_frequent”, or “constant” , useNearestVariables numero de variables cercanas para inferir el valor, por defecto todas. '''
         
         iterativeImputer = IterativeImputer(random_state=0, initial_strategy= method,n_nearest_features=useNearestVariables )
+        #el iterative imputer elimina las columnas tenemos que guardarlas para luego volver a establecerlas.
+        savedColumNames= self.csvFile.columns.to_list() 
         self.csvFile = pd.DataFrame(iterativeImputer.fit_transform(self.csvFile)) 
+        self.csvFile.columns=savedColumNames
 
     def replaceColumnTextByDictionaryValues(self , dictionary, column, naValue=''):
         ''' remplaza el contenido de las celdas de una columna que coincidan con los valores de un diccionario por su valor.'''

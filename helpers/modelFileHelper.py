@@ -50,10 +50,20 @@ class ModelFileHelper(object):
     def setColumnsType(self, dictionaryOfColumnNamesTypes):
         self.csvFile=self.csvFile.astype(dictionaryOfColumnNamesTypes)
 
-    def removeUselessColumns (self, dropConstants=True, dropQualifiyingColums=True):
+    def removeUselessColumns (self, dropConstants=True, dropQualifiyingColums=True, stdThreshold=0.05, Silent=False):
+        ''' Elimina columnas constantes por debajo de un valor dado para la desviacion estandar, stdThreshold. El modo 
+        Silent activa o desactiva la salida del resultado de las acciones '''
         if (dropConstants):
-           columnasNoConstantes= self.csvFile.columns[ self.csvFile.nunique()>1 ]
-           self.csvFile= self.csvFile.loc [:,columnasNoConstantes].copy()   
+            #mediante el analisis de la desviación típica elminamos los valores que esten por debajo de la desviacion propuesta.
+            #para retirar variables proximas a ser constantes del modelo.
+            columns =  self.csvFile.columns.copy()
+            for column in columns:
+                stdDeviation=self.csvFile[column].std(ddof=0)
+                if (stdDeviation<=stdThreshold):
+                    self.dropColumn(column)
+                    if (Silent==False):
+                        print (" Column:" + column + " removed : Standart Deviation = " + str(stdDeviation))
+ 
         if (dropQualifiyingColums):
            self.csvFile = self.csvFile.select_dtypes(exclude=np.object) #las cadenas de texto las interpreta como objectos.   
 

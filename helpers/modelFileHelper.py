@@ -78,6 +78,8 @@ class ModelFileHelper(object):
 
     def replaceColumnTextByDictionaryValues(self , dictionary, column, naValue=''):
         ''' remplaza el contenido de las celdas de una columna que coincidan con los valores de un diccionario por su valor.'''
+        #normalizar a minusculas ya que tenemos valores como Sanscrit y sanscrit, que son lo mismo a nivel de significante.
+        self.csvFile[column]=self.csvFile[column].str.lower() 
         for key in dictionary:
             self.csvFile[column]= self.csvFile[column].replace(key, dictionary[key])
 
@@ -154,14 +156,11 @@ class ModelFileHelper(object):
 
     def removeColumnsHavingNulls(self, threshold, Silent=False):
         ''' Elimina las columnas que tienen un umbral de nulos por encima del proporcionado '''
-        removedItems=[]
         removable = [x for x in self.getNullPercents() if x[1]['%'] >= threshold ]
         for column in removable:
             self.dropColumn(column[0])
-            if (Silent != True):
-                removedItems.append("Removed " + column[0] + " having a " + str(column[1]['%']) + " Percent of nulls"  )
-
-        return removedItems
+            if (Silent == False):
+                print("Removed " + column[0] + " having a " + str(column[1]['%']) + " Percent of nulls"  )
 
     def viewUniqueColumnValues(self, column):
         return pd.unique(self.csvFile[column]).tolist()    

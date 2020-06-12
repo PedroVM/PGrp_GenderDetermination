@@ -6,6 +6,12 @@ import seaborn as sea
 import matplotlib.pyplot as plt
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
+from sklearn.ensemble import RandomForestClassifier 
+from sklearn.metrics import roc_curve
+from sklearn.model_selection import train_test_split  
+from sklearn.datasets import make_classification  
+from sklearn.metrics import roc_auc_score  
+
 
 #define a class to help us with the process
 
@@ -170,6 +176,26 @@ class ModelFileHelper(object):
         plt.figure(figsize=(dimensionX, dimensionY))
         sea.heatmap(corr, xticklabels=True, yticklabels=True) 
 
+    def __calculateRocAucCurve(self, testy, probs, modelName):
+        #Nos quedamos con las probabilidades de la clase positiva únicamente
+        probs = probs[:, 1]
+
+        #Calculamos puntuación AUC y dibujamos curva ROC. El valor ideal de AUC es 1.
+        fpr, tpr, thresholds = roc_curve(testy, probs)  
+        self.__drawRocCurve(fpr, tpr, modelName)
+        auc = roc_auc_score(testy, probs)
+        print('AUC calculada para el modelo '+modelName+': %.2f' % auc)
+        return auc
+
+    def __drawRocCurve(self, fpr, tpr, modelName):
+        plt.plot(fpr, tpr, color='orange', label='ROC')
+        plt.plot([0, 1], [0, 1], color='darkblue', linestyle='--')
+        plt.xlabel('Tasa positiva falsa - FPR')
+        plt.ylabel('Tasa positiva verdadera - TPR')
+        plt.title('Curva ROC (Receiver Operating Characteristic) del modelo: '+modelName)
+        plt.legend()
+        plt.show()
+
     def __tuplaCleanUp(self, tupla):
         result = str(tupla).replace('(','').replace(')','').replace(',','')
         return result
@@ -190,3 +216,4 @@ class ModelFileHelper(object):
 
     def _viewUniqueColumnValues(self, column):
         return pd.unique(self.csvFile[column]).tolist()   
+        

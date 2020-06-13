@@ -7,6 +7,14 @@ import helpers.modelFileHelper as mh
 TRAIN_KEY = "train"
 # Clave para acceder al file helper del fichero Test
 TEST_KEY = "test"
+#Clave para acceder al file helper del fichero Train modificado en la parte 1
+TRAIN_KEY_PART_2 = "train2"
+# Clave para acceder al file helper del fichero Test modificado en la parte 1
+TEST_KEY_PART_2 = "test2"
+#PART2 nombres de ficheros
+FILENAME_TEST_PART2 = "data_sources/test_part2.csv"
+FILENAME_TRAIN_PART2 = "data_sources/train_part2.csv"
+
 # Diccionario que contiene los ficheros CSV bajo las claves. Pueden ser accedidos mediante las claves train y test 
 CSV_FILES = { TRAIN_KEY : mh.ModelFileHelper("data_sources/train.csv"), TEST_KEY :   mh.ModelFileHelper("data_sources/test.csv")} 
 # Diccionario que contiene todos los posibles lenguajes para transcribirlos a un valor numérico.

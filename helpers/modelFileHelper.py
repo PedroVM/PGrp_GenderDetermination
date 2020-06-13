@@ -121,6 +121,10 @@ class ModelFileHelper(object):
             else:
                  print("Columna NO eliminada: "+str(columnName)+". índice de Pearson: "+str(abs(pearsonIndex)) + " > = " + str(abs(removeUnderValue)) )
 
+    def exportToCsv(self, fileName):
+        self.csvFile.to_csv(fileName, index=False)
+        
+    
     def exportHarmonizatedModel(self, harmonizationMatrix, harmonizationquery, fileName):
         '''Exporta el modelo tras armonizar los valores en funcion de una matriz de armonización dada y una query'''
         harmonizated =self.csvFile 

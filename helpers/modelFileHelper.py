@@ -6,12 +6,18 @@ import seaborn as sea
 import matplotlib.pyplot as plt
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
-from sklearn.ensemble import RandomForestClassifier 
-from sklearn.metrics import roc_curve
-from sklearn.model_selection import train_test_split  
+from sklearn.metrics import roc_curve 
 from sklearn.datasets import make_classification  
 from sklearn.metrics import roc_auc_score  
-
+from sklearn.metrics import mean_squared_error, r2_score
+from xgboost import XGBClassifier
+from sklearn.model_selection import train_test_split 
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import Perceptron
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
 
 #define a class to help us with the process
 
@@ -129,7 +135,6 @@ class ModelFileHelper(object):
 
     def exportToCsv(self, fileName):
         self.csvFile.to_csv(fileName, index=False)
-        
     
     def exportHarmonizatedModel(self, harmonizationMatrix, harmonizationquery, fileName):
         '''Exporta el modelo tras armonizar los valores en funcion de una matriz de armonización dada y una query'''
@@ -179,6 +184,24 @@ class ModelFileHelper(object):
         corr=self.csvFile.corr(method=corrMethod) 
         plt.figure(figsize=(dimensionX, dimensionY))
         sea.heatmap(corr, xticklabels=True, yticklabels=True) 
+
+    def getBestPredictionAlgorithm(self, predictColumn, testModel,  Silent=False, ROC_Curve=True ):
+        '''
+        Se usan varios algoritmos de prediccion para determinar cuál es el mejor:
+        predictColumn es la columna a ser predecida. El modelo entrenado se asume que es el contenido en la instancia del helper. Self.
+        testModel: El modelo de test contra el que se realiza la predicción. (Pandas Dataframe)
+
+        El modo Silent activa la salida de texto informativo
+        El modo ROC_Curve genera la curva ROC para cada algoritmo ayudando de forma visual a la determinación del mejor.
+        Retorna el mejor algoritmo en base a la mejor precisión para cada uno de los algorimos empleados en la estimación que son los siguientes:
+          - Regresión logística
+          - Random Forest
+          - Perceptrón
+          - Árboles de decisión
+          - Bayesiano (Naybe)
+          - K-NeigthBors (Vecindad de 5)
+        '''
+        
 
     def __calculateRocAucCurve(self, testy, probs, modelName):
         #Nos quedamos con las probabilidades de la clase positiva únicamente
